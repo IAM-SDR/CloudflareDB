@@ -9,8 +9,8 @@
  Channel: https://telegram.dog/tprojects
 */
 
-const POSTKEY = null; // "your-key" to secure POST requests with a token
-const DELETEKEY = null; // "your-key" to secure DELETE requests with a token
+const POSTKEY = IAMSDR; // "your-key" to secure POST requests with a token
+const DELETEKEY = IAMSDR; // "your-key" to secure DELETE requests with a token
 
 async function handleRequest(request) {
 
